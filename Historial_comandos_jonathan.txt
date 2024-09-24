@@ -1,0 +1,212 @@
+    1  ls
+    2  cd ..
+    3  ssh-keygen
+    4  ls
+    5  cat $home/.ssh/*.pub
+    6  cat .pub
+    7  ls
+    8  git clone git@github.com:Jonybg/TP_AySO.git
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd jonathan/
+   13  ls
+   14  mkdir  repogit
+   15  ls
+   16  ssh-keygen
+   17  ls
+   18  ssh-keygen
+   19  git --list
+   20  git config --list
+   21  git --version
+   22  git config user.name
+   23  su
+   24  ls
+   25  ssh-keygen
+   26  cat .shh/
+   27  cat .ssh/.pub
+   28  cat ssh/*.pub
+   29  cat $
+   30  cd .ssh/
+   31  cat .pub
+   32  cd ..
+   33  cat 
+   34  ls
+   35  shh-keygen
+   36  ssh-keygen
+   37  ls
+   38  cat .ls
+   39  ls
+   40  cat 
+   41  cat .ssh
+   42  ls
+   43  cd .ssh
+   44  cat
+   45  ls
+   46  cd id_rsa.pub
+   47  cat id_rsa.pub
+   48  ls
+   49  cat id_rsa
+   50  ls
+   51  cat id_rsa.pub
+   52  cd ..
+   53  clear
+   54  ls
+   55  cd repogit/
+   56  git clone git@github.com:Jonybg/TP_AySO.git
+   57  ls
+   58  cd TP_AySO/
+   59  pwd
+   60  ls -l
+   61  cat/etc/os-release
+   62  cat /etc/os-release
+   63  man grep
+   64  grep HOME_URL/etc/os-release
+   65  man grep
+   66  grep -i HOME_URL/etc/os-release
+   67  --ignore-case
+   68  man grep -i
+   69  grep HOME_URL/etc/os-release
+   70  man-grep
+   71  cat /etc/os-release
+   72  clear
+   73  grep HOME_URL/etc/os-release
+   74  grep HOME_URL /etc/os/-release
+   75  grep home_url /etc/os/-release
+   76  grep -i Home_url /etc/os-release
+   77  grep HOME_URL /etc/os-release
+   78  grep home_url /etc/os-release
+   79  whoami
+   80  echo "usuario=$(whoami)">datos_usuario.txt
+   81  ls
+   82  git add .
+   83  git commit -m "ADD:agregado de 1er ejercicio sobre datos_usuario.txt"
+   84  git push
+   85  git status
+   86  grep /proc
+   87  grep cpuinfo
+   88  cat /proc
+   89  grep /proc
+   90  cat pcinfo
+   91  grep /proc/cpuinfo
+   92  cat /proc/cpuinfo
+   93  cat /proc/cpuinfp "model name"
+   94  cat /proc/cpuinfo "model name"
+   95  cat /proc/cpuinfo "model"
+   96  cat /proc/cpuinfo head-n1 "model name"
+   97  grep /proc/cpuinfo
+   98  grep /proc/cpuinfo "model name"
+   99  grep /proc/cpuinfo "model"
+  100  ls
+  101  grep "model name" /proc/cpuinfo | head -n1>> datos_usuario.txt 
+  102  ls
+  103  cat datos_usuario.txt 
+  104  git add .
+  105  git commit -m "feat:Añadiendo informacion de cpu"
+  106  git push
+  107  ls
+  108  grep -v "nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada
+  109  git add lista_ordenada
+  110  git commit -m "ADD: Listado de usuarios ordenada"
+  111  git push
+  112  echo "Comando para capturar trafico: tcpdump" > comando_dump_net
+  113  echo "Comando para buscar el comando: which tcpdump" >> comando_dump_net
+  114  git add comando_dump_net
+  115  git commit -m "ADD: Comando para capturar y analizar el trafico de red" 
+  116  git push
+  117  cat <<EOF >> README.md 
+  118  Alumno: Jonathan
+  119  Division: 211
+  120  Turno: Tarde
+  121  EOF
+  122  git add README.md
+  123  git commit -m "docs: Informacion del estuadiante agregada al README"
+  124  git push
+  125  history -a
+  126  cp /.bash_history Historial_comandos_jonathan.txt
+  127  history -a
+  128  sudo history -a
+  129  history -a
+  130  ls
+  131  grep .bash
+  132  cd ..
+  133  ls
+  134  cd ...
+  135  cd ..
+  136  ls
+  137  history -a
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd home/
+  144  cd jonathan/
+  145  ls
+  146  cd repogit/
+  147  ls
+  148  cd TP_AySO/
+  149  ls
+  150  history -a
+  151  grep HISTFILE /etc/bash.bashrc
+  152  echo "HISFILE=~/.bash_history">> ~/.bashrc
+  153  touch ~/.bash_history
+  154  chmod 600 ~/.bash_history
+  155  history -w
+  156  grep HISTFILE /etc/bash.bashrc
+  157  echo "HISFILE=~/.bash_history">> ~/.bashrc
+  158  touch ~/.bash_history
+  159  chmod 600 ~/.bash_history
+  160  history -w
+  161  exec bash
+  162  ls -ld ~
+  163  ls
+  164  history -a
+  165  ls
+  166  mkdir ~/test && touch ~/test/testfile && rm~/test/testfile
+  167  history -a
+  168  ls
+  169  echo "HISFILE=~/.bash_history">> ~/.bashrc
+  170  chmod 600 ~/.bash_history
+  171  shopt -s histappend
+  172  PROMPT_COMMAND='history -a'
+  173  HISTCONTROL=ignoreboth
+  174  HISTCONTROL=
+  175  mkdir ~/test && touch ~/test/testfile && rm ~/test/testfile
+  176  mkdir test && touch test/testfile && rm test/testfile
+  177  shopt -s histappend
+  178  PROMPT_COMMAND='history -a'
+  179  HISTCONTROL=ignoreboth
+  180  HISTSIZE=1000
+  181  HISTFILESIZE=2000
+  182  rm ~/test/testfile
+  183  rm /home/jonathan/test/testfile
+  184  ls
+  185  history -a
+  186  ls
+  187  shopt -s histappend
+  188  PROMPT_COMMAND='history -a'
+  189  HISTCONTROL=ignoreboth
+  190  ls
+  191  ~/.bashrc
+  192  ls -l ~/.bashrc
+  193  chmod u+x ~/.bashrc
+  194  source ~/.bashrc
+  195  nano ~/.bashrc
+  196  chmod u+w ~/.bashrc
+  197  ls -l ~/.bashrc
+  198  ls
+  199  cd repogit/
+  200  cd TP_AySO/
+  201  history -a
+  202  ls
+  203  cd repogit/
+  204  ls
+  205  cd TP_AySO/
+  206  ls
+  207  history
+  208  echo "${history}" > "Historial_comandos_jonathan.txt
+
+ls
+  209  ls
+  210  echo "$(history)" > Historial_comandos_jonathan.txt
